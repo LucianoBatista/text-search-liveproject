@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spacy = "==3.4.3"
+scikit-learn = "==1.1.3"
+numpy = "==1.23.5"
+pandas = "==1.5.2"
+
+[dev-packages]
+ipykernel = "*"
+black = "*"
+
+[requires]
+python_version = "3.10"
