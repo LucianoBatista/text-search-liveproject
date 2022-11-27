@@ -20,19 +20,3 @@ class TextPrep:
         for token in self.doc:
             if not token.is_punct and not token.is_stop:
                 self.final_tokens.append(token.lemma_)
-
-
-def lowercasing():
-    ...
-
-
-def remove_stop_words():
-    ...
-
-
-def remove_punckt():
-    ...
-
-
-def remove_unclassified_lemmas():
-    ...
