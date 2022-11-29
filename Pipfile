@@ -10,6 +10,10 @@ numpy = "==1.23.5"
 pandas = "==1.5.2"
 nltk = "==3.7"
 nlpia = "==0.5.2"
+faiss-cpu = "==1.7.3"
+torch = "==1.13.0"
+transformers = "==4.24.0"
+sentence-transformers = "==2.2.2"
 
 [dev-packages]
 ipykernel = "*"
